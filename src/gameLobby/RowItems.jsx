@@ -1,4 +1,3 @@
-import {useEffect, useState} from 'react';
 import styles from './gameLobby.module.css';
 import { HiUserGroup } from "react-icons/hi";
 import { MdGroup } from "react-icons/md";

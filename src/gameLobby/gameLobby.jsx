@@ -3,7 +3,7 @@ import ButtonsRow from './ButtonsRow';
 import GroupsRow from './GroupsRow';
 import RowItems from './RowItems';
 import styles from './gameLobby.module.css'
-import { POOL_101, POOL_201, POOL101, POINTS, POOL201, DEALS } from './constants';
+import { POOL_101, POOL_201, POOL101, POINTS, POOL201 } from './constants';
 
 export default function GameLobby(){
 
