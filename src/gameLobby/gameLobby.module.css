@@ -1,0 +1,165 @@
+.layout{
+    margin: 4rem 24rem;
+}
+@media only screen and (max-width: 600px) {
+    .layout{
+        margin: 4rem 4rem;
+    }
+  }
+@media screen and (max-width: 900px) and (min-width: 600px){
+    .layout{
+        margin: 4rem 6rem;
+    }
+}
+@media screen and (max-width: 1200px) and (min-width: 900px){
+    .layout{
+        margin: 4rem 12rem;
+    }
+}
+.button {
+background-color: #F3BDBD;
+border-radius: 4px;
+border: none;
+padding: 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 12px;
+margin: 1rem 0 0 0;
+}
+.buttonActive{
+    border-radius: 4px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    background-color: #CD5C5C;
+    width: 6rem;
+    padding: 12px;
+    margin: 0 6px 6px 0;
+    align-self: center;
+}
+.buttonsAlign {
+    display: flex;
+    justify-content: space-between;
+}
+.groupButtonsAlign{
+    display: flex;
+    justify-content: flex-start;
+}
+h2{
+    text-align: center;
+}
+.buttonGroup {
+    background-color: rgb(247, 236, 236);
+    border-radius: 4px;
+    border: 1.5px solid #FA8072;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 1rem 0 0 0;
+    color: gray;
+    width: 3rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+}
+.buttonGroupRupee{
+    border-radius: 4px;
+    border: 1px solid gray;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    margin: 1rem 0 0 0;
+    width: 2rem;
+    height: 2rem;
+    margin-left: 10px;
+}
+.buttonGroupRupee strong {
+    display: flex;
+    align-items: center;
+
+}
+.buttonGroupRupee strong p {
+    display: flex;
+    margin: 0.3rem 0;
+}
+.buttonGroupRupee strong p svg {
+    color: gray;
+    margin: 0 -2px;
+}
+.rowItem {
+    border: 1px solid gray;
+    border-radius: 16px;
+    margin-bottom: 2px;
+    margin-top: 4px;
+    box-shadow: 26px 13px 99px 10px rgba(155,151,151,0.52);
+    -webkit-box-shadow: 26px 13px 99px 10px rgba(155,151,151,0.52);
+    -moz-box-shadow: 26px 13px 99px 10px rgba(155,151,151,0.52);
+}
+.rowItemLine {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 4px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    height: 4rem;
+}
+.rowsAlign{
+    margin-top: 8px;
+    background-color: #DCDCDC;
+}
+.playersAlign{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid gray;
+    height: 1.2rem;
+    width:2rem;
+    border-radius: 4px;
+    margin-bottom: 2px;
+    margin-top: 1.2rem;
+    color:gray;
+    align-items: center;
+    padding: .25rem;
+}
+.bottomRow{
+    display: flex;
+    background-color: #C0C0C0;
+    height: 2rem;
+    font-size: x-small;
+    justify-content: flex-end;
+    border-bottom-left-radius:16px;
+    border-bottom-right-radius:16px;
+}
+.bottomRow p {
+    align-self: center;
+    margin-right: 4px;
+}
+.moneyAlign{
+    display: flex;
+    align-items: center;
+    margin-left: 4px;
+    width: 5rem;
+}
+.moneyAlign strong {
+    align-self: center;
+}
+.playersAlign p{
+    align-self: center;
+
+}
+.playersAlign svg{
+    align-self: center;
+
+}
+.react-icons {
+    vertical-align: middle;
+  }
+ .groupButtonsAlign svg {
+     margin: 0 4px;
+ }
+ .active{
+    background-color: #CD5C5C;
+ }
